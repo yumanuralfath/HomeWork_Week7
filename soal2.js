@@ -5,6 +5,7 @@ fs.readFile("./homework.log", "utf8", (err, data) => {
   if (err) {
     console.error(err);
   } else {
+    console.log(data);
     let logData = data;
 
     //Write async-homework.log
